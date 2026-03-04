@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+}
+
+#choices-container {
+    text-align: center;
+    padding: 1rem;
+}
+
+#choices-container img {
+    width: 100%;         
+    max-width: 300px;     
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+#choices-container p {
+    max-width: 600px;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
