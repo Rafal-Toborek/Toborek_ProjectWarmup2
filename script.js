@@ -23,25 +23,25 @@ function describeRoom(room) {
 
 
 const outside = {
-    image: "Images/outside.jpg",
+    image: "./Images/outside.jpg",
     description: "A place that used to be a beautiful garden now looks abandoned. There are clues pointing to the previous owners but they have since left. For now this place stays as a quiet memory of the past.",
     choises: "go to hallway"
 }
 
 const hallway = {
-    image: "Images/hallway.jpg",
+    image: "./Images/hallway.jpg",
     description: "A place that used to be a busy hallway now looks empty and quiet. There are clues pointing to the previous owners but they have since left. For now this place stays as a quiet memory of the past.",
     choises: ["go to kitchen", "go to livingroom"]
 }
 
 const livingroom = {
-    image: "Images/livingroom.jpg",
+    image: "./Images/livingroom.jpg",
     description: "A place that used to be a cozy living room now looks abandoned. There are clues pointing to the previous owners but they have since left. For now this place stays as a quiet memory of the past.",
     choises: "go to hallway"
 }
 
 const kitchen = {
-    image: "Images/kitchen.jpg",
+    image: "./Images/kitchen.jpg",
     description: "A place that used to be used to cook meals now looks burned and abandoned. There are clues pointing to the previous owners but they have since left. For now this place stays as a quiet memory of the past.",
     choises: "go to livingroom"
 }
